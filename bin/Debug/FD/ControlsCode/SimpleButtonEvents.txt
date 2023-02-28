@@ -1,0 +1,12 @@
+
+
+
+         public void SimpleButton_<<<Control_Name>>>_Click(object sender, EventArgs e)
+         {
+               <<<Even_Body>>>
+         }
+
+
+
+
+03201496223

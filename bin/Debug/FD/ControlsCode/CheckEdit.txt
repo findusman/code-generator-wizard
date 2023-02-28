@@ -1,0 +1,33 @@
+
+
+//                                             CheckEdit_<<<Control_Name>>>
+
+            this.CheckEdit_<<<Control_Name>>>.EditValue = true;
+            this.CheckEdit_<<<Control_Name>>>.EnterMoveNextControl = true;
+            this.CheckEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(84, <<<Control_XLocation>>>);
+            this.CheckEdit_<<<Control_Name>>>.Name = "CheckEdit_<<<Control_Name>>>";
+            this.CheckEdit_<<<Control_Name>>>.Properties.AppearanceFocused.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.CheckEdit_<<<Control_Name>>>.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.CheckEdit_<<<Control_Name>>>.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
+            this.CheckEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(25, 23);
+            this.CheckEdit_<<<Control_Name>>>.Text = "";
+            this.CheckEdit_<<<Control_Name>>>.Tag = "<<<Control_Tag>>>";
+            this.Controls.Add(this.CheckEdit_<<<Control_Name>>>);
+            
+
+
+
+
+//                                             LabelControl_CheckEdit_<<<Control_Name>>>
+
+            this.LabelControl_CheckEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(30, <<<Control_XLocation>>>);
+            this.LabelControl_CheckEdit_<<<Control_Name>>>.Name = "LabelControl_CheckEdit_<<<Control_Name>>>";
+            this.LabelControl_CheckEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.LabelControl_CheckEdit_<<<Control_Name>>>.TabIndex = 2;
+            this.LabelControl_CheckEdit_<<<Control_Name>>>.Text = "<<<Control_Caption>>>";
+            this.Controls.Add(this.LabelControl_CheckEdit_<<<Control_Name>>>);
+            
+
+
+
+

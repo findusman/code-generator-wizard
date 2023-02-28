@@ -1,0 +1,22 @@
+  //******************************************  <<<Main_Table>>>  *****************************************
+
+
+        public DataSet g_<<<Main_Table>>> = new DataSet();
+        public DataSet f_<<<Main_Table>>>(string pSTATUS, string p<<<Primary_Key>>>)
+        {
+
+            BLL.<<<Database_Name>>>_BLL.<<<Main_Table>>>.cls_<<<Main_Table>>> obj_cls_<<<Main_Table>>> = new BLL.<<<Database_Name>>>_BLL.<<<Main_Table>>>.cls_<<<Main_Table>>>();
+
+             
+            obj_cls_<<<Main_Table>>>.STATUS = pSTATUS;
+            obj_cls_<<<Main_Table>>>.CMP_ID = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_CMP_ID;
+            obj_cls_<<<Main_Table>>>.BRC_ID= GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_BRC_ID;
+            obj_cls_<<<Main_Table>>>.<<<Primary_Key>>>= p<<<Primary_Key>>>;
+            obj_cls_<<<Main_Table>>>.Is_Deleted= GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_isDeleted;
+            obj_cls_<<<Main_Table>>>.User_ID= GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_isDeleted;;
+           
+
+            g_<<<Main_Table>>> = obj_cls_<<<Main_Table>>>.selection();
+            return g_<<<Main_Table>>>;
+
+        }

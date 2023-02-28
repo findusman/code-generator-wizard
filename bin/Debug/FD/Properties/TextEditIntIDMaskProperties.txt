@@ -1,0 +1,2 @@
+            this.VVVNameVVV.Properties.Mask.EditMask = "d";
+            this.VVVNameVVV.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;

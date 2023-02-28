@@ -1,0 +1,271 @@
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+F:\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\12 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe.config
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.UserControls.DataBases.uc_DataBase_MSSQLServer.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_validateCodeGenerator.resources
+C:\Data\Development\Continue Projects\C#\Windows\Running\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_JoinScriptscreator.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe.config
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_JoinScriptscreator.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_validateCodeGenerator.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.UserControls.DataBases.uc_DataBase_MSSQLServer.resources
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+C:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe.config
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_JoinScriptscreator.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_validateCodeGenerator.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.UserControls.DataBases.uc_DataBase_MSSQLServer.resources
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.BonusSkins.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Data.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Printing.v13.1.Core.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Utils.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraBars.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraEditors.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraGrid.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraLayout.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraNavBar.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraPrinting.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Sparkline.v13.1.Core.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.RichEdit.v13.1.Core.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraTreeList.v13.1.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Office.v13.1.Core.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Data.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Printing.v13.1.Core.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Utils.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraBars.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraEditors.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraPrinting.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraGrid.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraLayout.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraNavBar.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Sparkline.v13.1.Core.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.RichEdit.v13.1.Core.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraTreeList.v13.1.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Office.v13.1.Core.xml
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Data.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Data.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Data.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Data.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Utils.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Utils.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Utils.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Utils.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraBars.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraBars.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraBars.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraBars.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraGrid.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraGrid.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraGrid.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraGrid.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraNavBar.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraNavBar.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraNavBar.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraNavBar.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Sparkline.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Office.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Office.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Office.v13.1.Core.resources.dll
+D:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Office.v13.1.Core.resources.dll
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe.config
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csprojResolveAssemblyReference.cache
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_JoinScriptscreator.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_validateCodeGenerator.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.UserControls.DataBases.uc_DataBase_MSSQLServer.resources
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.Cache
+E:\Development\C#\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe.config
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.exe
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\AdvCodeWizard.pdb
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.BonusSkins.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Data.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Printing.v13.1.Core.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Utils.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraBars.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraEditors.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraGrid.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraLayout.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraNavBar.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraPrinting.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Sparkline.v13.1.Core.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.RichEdit.v13.1.Core.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraTreeList.v13.1.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Office.v13.1.Core.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Data.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Printing.v13.1.Core.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Utils.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraBars.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraEditors.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraPrinting.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraGrid.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraLayout.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraNavBar.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Sparkline.v13.1.Core.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.RichEdit.v13.1.Core.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.XtraTreeList.v13.1.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\DevExpress.Office.v13.1.Core.xml
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Data.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Data.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Data.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Data.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Printing.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Printing.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Printing.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Printing.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Utils.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Utils.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Utils.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Utils.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraBars.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraBars.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraBars.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraBars.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraEditors.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraEditors.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraEditors.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraEditors.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraPrinting.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraPrinting.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraPrinting.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraPrinting.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraGrid.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraGrid.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraGrid.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraGrid.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraLayout.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraLayout.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraLayout.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraLayout.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraNavBar.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraNavBar.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraNavBar.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraNavBar.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Sparkline.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.XtraTreeList.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.XtraTreeList.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.XtraTreeList.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.XtraTreeList.v13.1.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\de\DevExpress.Office.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\es\DevExpress.Office.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ja\DevExpress.Office.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\bin\Debug\ru\DevExpress.Office.v13.1.Core.resources.dll
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_JoinScriptscreator.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Forms.frm_validateCodeGenerator.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.frm_SQlParamAndProperties.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.FormWizard.frm_FORMWIZARD.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\CODE_WIZARD.Form_Wizard.XtraForm1.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.Properties.Resources.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.MDI.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.UserControls.DataBases.uc_DataBase_MSSQLServer.resources
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.GenerateResource.cache
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe.licenses
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.CoreCompileInputs.cache
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.csproj.CopyComplete
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.exe
+E:\Development\C# Desktop Devlopment\AdvCodeWizard\28 August 2015 From\Source Code\AdvCodeWizard\obj\Debug\AdvCodeWizard.pdb

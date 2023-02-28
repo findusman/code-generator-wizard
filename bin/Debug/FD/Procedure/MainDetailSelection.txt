@@ -1,0 +1,85 @@
+USE <<<Database_Name>>>
+GO
+
+--     *****************************************************************************************************************************************************************
+ 
+ 
+--                             Code Type:           Store Procedure For selection
+--                             Auther:              Muhammad Usman Raza Attari
+--                             Developed By :       786 Software House 
+ 
+ 
+--    *****************************************************************************************************************************************************************
+ 
+     <<<Procedure_Mode>>> procedure  sp_<<<Main_Table>>>_selection
+                                               
+                                               
+     @STATUS nvarchar(100),
+     @CMP_ID nvarchar(100),
+     @BRC_ID nvarchar(100),
+     @<<<Primary_Key>>>  nvarchar(100),
+     @Is_Deleted bit
+     
+   
+   
+     AS BEGIN 
+   
+   if @STATUS = 'A'
+        BEGIN
+       
+             SELECT 
+               <<<Main_Table>>>.<<<Primary_Key>>> as 'IDs'
+               <<<Column_For_Selection_A>>>
+                
+                FROM <<<Main_Table>>> 
+	        where  
+	             Isnull(CMP_ID,'')      = isnull(@CMP_ID , '') 
+                     and Isnull(BRC_ID,'')  = isnull(@BRC_ID , '') 
+                     and Is_Deleted         = isnull(@Is_Deleted , Is_Deleted )   
+                     order by <<<Max_ID_Column>>>       
+
+        END  
+
+        ELSE  
+          if @STATUS = 'V'
+                BEGIN
+               
+                 SELECT * FROM <<<Main_Table>>> 
+	                where  
+                             <<<Primary_Key>>> = @<<<Primary_Key>>>
+	                     and Isnull(CMP_ID,'')      = isnull(@CMP_ID , '') 
+                             and Isnull(BRC_ID,'')      = isnull(@BRC_ID , '') 
+                             and Is_Deleted             = isnull(@Is_Deleted , Is_Deleted )  
+    
+                 SELECT * FROM <<<Det_Table>>> 
+	                where  
+                             <<<Foreign_Key>>> = @<<<Primary_Key>>>
+	                     and Isnull(CMP_ID,'')      = isnull(@CMP_ID , '') 
+                             and Isnull(BRC_ID,'')      = isnull(@BRC_ID , '') 
+                             and Is_Deleted             = isnull(@Is_Deleted , Is_Deleted )  
+                             order by <<<Order_Column>>>     
+
+                END 
+                  
+                ELSE  
+                  if @STATUS = 'L'
+                        BEGIN
+                       
+                         SELECT <<<Primary_Key>>> , <<<Name_Column>>> FROM <<<Main_Table>>> 
+	                        where  
+                                     Isnull(CMP_ID,'')      = isnull(@CMP_ID , '') 
+                                     and Isnull(BRC_ID,'')  = isnull(@BRC_ID , '') 
+                                     and Is_Deleted         = isnull(@Is_Deleted , Is_Deleted )        
+
+                        END    
+		ELSE  
+                  if @STATUS = 'G'
+                        BEGIN
+                       
+                         SELECT <<<Primary_Key>>> , <<<Name_Column>>> FROM <<<Det_Table>>> 
+	                        where  
+                                            <<<Foreign_Key>>> = '-1'
+
+                        END   
+ 
+     END

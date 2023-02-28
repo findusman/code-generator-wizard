@@ -1,0 +1,454 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Data.SqlClient;
+using System.Data;
+
+
+namespace BLL.<<<Database_Name>>>_BLL.<<<Main_Table>>>
+{
+
+  public class cls_<<<Main_Table>>>
+    {
+        DAL.DALCustome obj_DALCustome = new DAL.DALCustome();
+        public DevExpress.XtraEditors.XtraForm obj_XtraForm = new DevExpress.XtraEditors.XtraForm();
+        BLL.GEN_BLL.TBL_LOG.cls_TBL_LOG obj_cls_TBL_LOG = new BLL.GEN_BLL.TBL_LOG.cls_TBL_LOG();
+        GEN.GEN_GEN.GenericClasses.cls_MessageBox obj_cls_MessageBox = new GEN.GEN_GEN.GenericClasses.cls_MessageBox();
+        public DataTable dt_Detail = new System.Data.DataTable();
+         
+        string ExeState = "";
+        
+        private string pSTATUS; 
+        public  String  STATUS  
+        {
+              get { return pSTATUS;  }
+              set {pSTATUS  = value ; }
+        }
+ 
+      
+ 
+        private  string  p<<<Primary_Key>>>   = string.Empty;
+ 
+        public  string  <<<Primary_Key>>>   
+        {
+              get { return p<<<Primary_Key>>> ; }
+              set { p<<<Primary_Key>>>  = value ; }
+        }
+
+        
+
+<<<Other Properties>>>
+
+            private String p<<<Foreign_Key>>>;
+
+            public String <<<Foreign_Key>>>
+            {
+                  get { return p<<<Foreign_Key>>>; }
+                  set { p<<<Foreign_Key>>> = value; }
+            }
+            private int p<<<Order_Column>>>;
+
+            public int <<<Order_Column>>>
+            {
+                  get { return p<<<Order_Column>>>; }
+                  set { p<<<Order_Column>>> = value; }
+            }
+
+<<<Other Properties Detail>>>
+
+
+        private bool  p<<<Is_Auto_Generated>>>    = true;
+ 
+        public  bool  <<<Is_Auto_Generated>>>    
+        {
+              get { return p<<<Is_Auto_Generated>>>  ; }
+              set { p<<<Is_Auto_Generated>>>   = value ; }
+        }
+ 
+        private  string  pUser_ID   = string.Empty;
+ 
+        public  string  User_ID   
+        {
+              get { return pUser_ID ; }
+              set { pUser_ID  = value ; }
+        }      
+ 
+        
+        public bool insertionUpdation(char pProcedureStatus)
+        {
+            DAL.DALCustome obj_DALCustome = new DAL.DALCustome();
+
+            SqlCommand obj_SqlCommand = new SqlCommand();
+
+            SqlParameter[] sql_param = new SqlParameter[<<<Parameters_SIze>>>];
+
+            sql_param[0] = new SqlParameter("@CMP_ID", SqlDbType.NVarChar);
+            sql_param[0].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_CMP_ID;
+
+            sql_param[1] = new SqlParameter("@BRC_ID", SqlDbType.NVarChar);
+            sql_param[1].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_BRC_ID;
+
+            sql_param[2] = new SqlParameter("@<<<Primary_Key>>> ", SqlDbType.NVarChar);
+            sql_param[2].Value = <<<Primary_Key>>> ;
+
+<<<Other SQL Parameters>>>           
+            sql_param[<<<Parameters_SIze-3>>>] = new SqlParameter("@<<<Is_Auto_Generated>>>", SqlDbType.Bit);
+            sql_param[<<<Parameters_SIze-3>>>].Value = <<<Is_Auto_Generated>>>;
+
+            sql_param[<<<Parameters_SIze-2>>>] = new SqlParameter("@Is_Deleted", SqlDbType.NVarChar);
+            sql_param[<<<Parameters_SIze-2>>>].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_isDeleted; 
+
+            sql_param[<<<Parameters_SIze-1>>>] = new SqlParameter("@User_ID", SqlDbType.NVarChar);
+            sql_param[<<<Parameters_SIze-1>>>].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_USER_ID; 
+
+
+              DataSet ds = new DataSet();
+
+
+            string Status = obj_DALCustome.open_connection();
+
+            if (Status != "ok")
+            {
+                obj_DALCustome.transactioRollBack();
+                obj_cls_MessageBox.MessageBoxStatic("Connection_E");
+               
+                return false;
+            }
+
+            if (pProcedureStatus == 'I')
+              ds = obj_DALCustome.selection("sp_<<<Main_Table>>>_insertion", sql_param, obj_SqlCommand, true);
+            else
+                ds = obj_DALCustome.selection("sp_<<<Main_Table>>>_updation", sql_param, obj_SqlCommand, true);
+            if (GEN.GEN_GEN.GenericClasses.DataTables.cls_NativDataSet.checkIsNullIsNoTableIsTableEmpty(ds, 0))
+            {
+
+                obj_DALCustome.transactioRollBack();
+                obj_DALCustome.closeconnection();
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+               
+                return false;
+            }
+            else
+            {
+                ExeState = ds.Tables[0].Rows[0][0].ToString();
+                string Id = ds.Tables[0].Rows[0][1].ToString();
+                
+                if (Id != "N" && ExeState == "ok")
+                {
+
+
+                              <<<Primary_Key>>> = Id;
+                              <<<Order_Column>>>  = 0;
+                              foreach (DataRow dr in dt_Detail.Rows)
+                              {
+
+
+                                    sql_param = new SqlParameter[<<<Parameters_SIze_Detail>>>];
+
+                                    sql_param[0] = new SqlParameter("@CMP_ID", SqlDbType.NVarChar);
+                                    sql_param[0].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_CMP_ID;
+
+                                    sql_param[1] = new SqlParameter("@BRC_ID", SqlDbType.NVarChar);
+                                    sql_param[1].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_BRC_ID;
+
+                                    sql_param[2] = new SqlParameter("@<<<Foreign_Key>>>", SqlDbType.NVarChar);
+                                    sql_param[2].Value = <<<Primary_Key>>>;
+
+                                    sql_param[3] = new SqlParameter("@<<<Order_Column>>>", SqlDbType.Int);
+                                    sql_param[3].Value = <<<Order_Column>>> ;
+
+<<<Other SQL Parameters Detail>>>
+                                 
+                                    sql_param[<<<Parameters_SIze_Detail-4>>>] = new SqlParameter("@Is_Deleted", SqlDbType.Bit);
+                                    sql_param[<<<Parameters_SIze_Detail-4>>>].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_isDeleted;
+
+                                    sql_param[<<<Parameters_SIze_Detail-5>>>] = new SqlParameter("@User_ID", SqlDbType.NVarChar);
+                                    sql_param[<<<Parameters_SIze_Detail-5>>>].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_USER_ID;
+
+
+                                    ds = obj_DALCustome.selection("sp_<<<Det_Table>>>_insertion", sql_param, obj_SqlCommand, false);
+
+                                    if (GEN.GEN_GEN.GenericClasses.DataTables.cls_NativDataSet.checkIsNullIsNoTableIsTableEmpty(ds, 0))
+                                    {
+
+                                          obj_DALCustome.transactioRollBack();
+                                          obj_DALCustome.closeconnection();
+                                          obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+
+                                          return false;
+                                    }
+                                    else
+                                    {
+                                          ExeState = ds.Tables[0].Rows[0][0].ToString();
+
+                                          if (ExeState == "ok")
+                                          {
+                                                <<<Order_Column>>>++;
+                                                continue;
+                                          }
+                                          else
+                                          {
+                                                obj_DALCustome.transactioRollBack();
+                                                obj_DALCustome.closeconnection();
+                                                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+                                                return false;
+
+                                          }
+
+                                    }
+
+                              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    string Log_description = pProcedureStatus == 'I' ? GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_InsertLogDescription : GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_UpdateLogDescription;
+                    string Log_event = pProcedureStatus == 'I' ? GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_InsertLogEvent : GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_UpdateLogEvent;
+
+                    if (obj_cls_TBL_LOG.insertion(Id, obj_XtraForm.Tag.ToString(), obj_XtraForm.Text.ToString(), Log_description, Log_event, obj_SqlCommand, obj_DALCustome, false))
+                    {
+
+                        obj_DALCustome.transactioCommit();
+                        obj_DALCustome.closeconnection();
+                        if (pProcedureStatus == 'I')
+                           obj_cls_MessageBox.MessageBoxStatic("I_S");
+                        else 
+			   obj_cls_MessageBox.MessageBoxStatic("U_S");
+                        return true;
+                    }
+                    else
+                    {
+                        obj_DALCustome.transactioRollBack();
+                        obj_DALCustome.closeconnection();
+                        obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+                        return false;
+
+                    }
+                }
+                else
+                {
+                    obj_DALCustome.transactioCommit();
+                    obj_DALCustome.closeconnection();
+                    if (pProcedureStatus == 'I')
+                      obj_cls_MessageBox.MessageBoxDynamics(ExeState, "I_E");
+                    else
+                        obj_cls_MessageBox.MessageBoxDynamics(ExeState, "U_E");
+                    return false;
+
+                }
+
+
+            }
+
+
+
+            return false;
+
+        }
+
+       public bool Open()
+        {
+            DAL.DALCustome obj_DALCustome = new DAL.DALCustome();
+
+            SqlCommand obj_SqlCommand = new SqlCommand();
+
+            string Status = obj_DALCustome.open_connection();
+
+            if (Status != "ok")
+            {
+                obj_DALCustome.transactioRollBack();
+                obj_cls_MessageBox.MessageBoxStatic("Connection_E");
+                return false;
+            }
+
+            if (obj_cls_TBL_LOG.insertion("O", obj_XtraForm.Tag.ToString(), obj_XtraForm.Text.ToString(), GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_ScreenOpenedLogDescription, GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_ScreenOpenedLogEvent, obj_SqlCommand, obj_DALCustome, true))
+            {
+
+                obj_DALCustome.transactioCommit();
+                obj_DALCustome.closeconnection();
+                return true;
+            }
+            else
+            {
+                obj_DALCustome.transactioRollBack();
+                obj_DALCustome.closeconnection();
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+                return false;
+
+            }
+
+
+        }
+
+
+
+      
+       public bool deletion()
+        {
+            DAL.DALCustome obj_DALCustome = new DAL.DALCustome();
+
+            SqlCommand obj_SqlCommand = new SqlCommand();
+
+            SqlParameter[] sql_param = new SqlParameter[4];
+
+            sql_param[0] = new SqlParameter("@STATUS", SqlDbType.NVarChar);
+            sql_param[0].Value = STATUS;
+
+            sql_param[1] = new SqlParameter("@CMP_ID", SqlDbType.NVarChar);
+            sql_param[1].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_CMP_ID;
+
+            sql_param[2] = new SqlParameter("@BRC_ID", SqlDbType.NVarChar);
+            sql_param[2].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_BRC_ID;
+
+            sql_param[3] = new SqlParameter("@<<<Primary_Key>>> ", SqlDbType.NVarChar);
+            sql_param[3].Value = <<<Primary_Key>>> ;
+
+
+            string Status = obj_DALCustome.open_connection();
+
+            if (Status != "ok")
+            {
+                obj_DALCustome.transactioRollBack();
+                obj_cls_MessageBox.MessageBoxStatic("Connection_E");
+
+                return false;
+            }
+
+                DataSet ds = obj_DALCustome.selection("sp_<<<Main_Table>>>_deletion", sql_param, obj_SqlCommand, true);
+          
+            if (GEN.GEN_GEN.GenericClasses.DataTables.cls_NativDataSet.checkIsNullIsNoTableIsTableEmpty(ds, 0))
+            {
+
+                obj_DALCustome.transactioRollBack();
+                obj_DALCustome.closeconnection();
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+
+                return false;
+            }
+            else
+            {
+                ExeState = ds.Tables[0].Rows[0][0].ToString();
+                string Id = ds.Tables[0].Rows[0][1].ToString();
+
+                if (Id != "N" && ExeState == "ok")
+                {
+
+                    string Log_description =  GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_DeleteLogDescription;
+                    string Log_event =  GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_DeleteLogEvent;
+
+                    if (obj_cls_TBL_LOG.insertion(Id, obj_XtraForm.Tag.ToString(), obj_XtraForm.Text.ToString(), Log_description, Log_event, obj_SqlCommand, obj_DALCustome, false))
+                    {
+
+                        obj_DALCustome.transactioCommit();
+                        obj_DALCustome.closeconnection();
+                        obj_cls_MessageBox.MessageBoxStatic("D_S");
+                        return true;
+                    }
+                    else
+                    {
+                        obj_DALCustome.transactioRollBack();
+                        obj_DALCustome.closeconnection();
+                        obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+                        return false;
+
+                    }
+                }
+                else
+                {
+                    obj_DALCustome.transactioCommit();
+                    obj_DALCustome.closeconnection();
+                   
+                        obj_cls_MessageBox.MessageBoxDynamics(ExeState, "D_E");
+                
+                    return false;
+
+                }
+
+
+            }
+             return false;
+        }
+
+
+        public DataSet selection()
+        {
+
+            DAL.DALCustome obj_DALCustome = new DAL.DALCustome();
+
+            SqlCommand obj_SqlCommand = new SqlCommand();
+
+            string Status = obj_DALCustome.open_connection();
+
+            if (Status != "ok")
+            {
+                obj_DALCustome.transactioRollBack();
+                return null;
+            }
+
+             SqlParameter[] sql_param = new SqlParameter[5];
+
+            sql_param[0] = new SqlParameter("@STATUS", SqlDbType.NVarChar);
+            sql_param[0].Value = STATUS;
+
+            sql_param[1] = new SqlParameter("@CMP_ID", SqlDbType.NVarChar);
+            sql_param[1].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_CMP_ID;
+
+            sql_param[2] = new SqlParameter("@BRC_ID", SqlDbType.NVarChar);
+            sql_param[2].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_BRC_ID;
+
+            sql_param[3] = new SqlParameter("@<<<Primary_Key>>> ", SqlDbType.NVarChar);
+            sql_param[3].Value = <<<Primary_Key>>> ;
+
+            sql_param[4] = new SqlParameter("@Is_Deleted", SqlDbType.Bit);
+            sql_param[4].Value = GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_isDeleted;
+
+            DataSet ds = obj_DALCustome .selection("sp_<<<Main_Table>>>_selection", sql_param,obj_SqlCommand ,true);
+
+            if (ds!=null)
+            {
+
+                obj_DALCustome.transactioCommit();
+                obj_DALCustome.closeconnection();
+                return ds;
+            }
+            else
+            {
+                obj_DALCustome.transactioRollBack();
+                obj_DALCustome.closeconnection();
+                return null;
+
+            }
+           
+            return ds;
+
+        }
+
+    }
+}

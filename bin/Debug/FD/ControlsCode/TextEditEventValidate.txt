@@ -1,0 +1,19 @@
+ 
+
+
+   public void VVVVNameVVVVV_KeyDown(object sender, KeyEventArgs e)
+        {
+         if (e.KeyData == Keys.Enter)
+            {
+            if (VVVVNameVVVVV.Text != "" && VVVVNameVVVVV.Text != "0")
+                objcls_VVVFormNameVVV_P.selection("V", VVVVNameVVVVV.Text.Trim());
+           else
+            if ( VVVVNameVVVVV.Text != maxID.ToString())
+               objcls_VVVFormNameVVV_P.Referesh(false);
+            }
+        }
+
+  private void VVVVNameVVVVV_Leave(object sender, EventArgs e)
+        {
+            VVVVNameVVVVV.Text = maxID;
+        }

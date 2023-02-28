@@ -1,0 +1,74 @@
+USE <<<Database_Name>>>
+GO
+
+
+
+
+
+--     *****************************************************************************************************************************************************************
+ 
+ 
+--                             Code Type:           Store Procedure For Insertion
+--                             Auther:              Muhammad Usman Raza Attari
+--                             Developed By :       786 Software House 
+ 
+ 
+--    *****************************************************************************************************************************************************************
+ 
+      <<<Procedure_Mode>>> procedure  [dbo].[sp_<<<Det_Table>>>_insertion]
+                                               
+                                               
+          @CMP_ID  nvarchar(50) 
+          ,@BRC_ID  nvarchar(50) 
+          ,@<<<Foreign_Key>>>  nvarchar(50) 
+          ,@<<<Order_Column>>> int <<<OthersWithType>>>
+          ,@Is_Deleted bit
+          ,@User_ID  nvarchar(50)
+          
+   
+      as  
+      begin
+   
+      declare @tmpMaxID nvarchar(50)
+      
+      
+      set @tmpMaxID = cast(( select  isnull( (max(cast( <<<Primary_Key>>> as int ))),0) + 1 from  <<<Det_Table>>>
+                                              
+                                          ) as nvarchar
+                                         )
+   
+if @<<<Order_Column>>> = 0
+   begin
+		delete from <<<Det_Table>>>
+		where        
+                      Is_Deleted  = 0
+					  and <<<Foreign_Key>>> = @<<<Foreign_Key>>>
+
+  end
+
+
+   
+              insert into <<<Det_Table>>>
+                     values
+                     (
+                        @CMP_ID  ,
+                        @BRC_ID  ,
+                        @tmpMaxID  ,
+                        @<<<Foreign_Key>>>  ,
+			@<<<Order_Column>>>, <<<OthersWithoutType>>>                         
+                        @Is_Deleted ,
+                        @User_ID  
+                     )
+              select 'ok' , @tmpMaxID  
+     
+     
+     
+    end
+
+
+
+
+
+
+
+

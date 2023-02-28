@@ -1,0 +1,41 @@
+  
+ public static bool <<<GridLookUpTable_Table>>>(GridLookUpEdit objGridLookUpEdit)
+        {
+            
+                DATASET.<<<Module_Name>>>_DATASET.cls_DataSet obj_cls_DataSet = new DATASET.<<<Module_Name>>>_DATASET.cls_DataSet();
+           
+
+                obj_cls_DataSet.f_<<<GridLookUpTable_Table>>>("L", "");
+                DataSet ds = obj_cls_DataSet.g_<<<GridLookUpTable_Table>>>;
+                
+                if (ds == null)
+                 {
+                    
+                    return false;
+                 }
+
+                GEN.GEN_GEN.GenericClasses.Grid.cls_GridFunctions.getGridLookUpEdit(
+
+                    objGridLookUpEdit,
+                    BLL.<<<Module_Name>>>_BLL.<<<GridLookUpTable_Table>>>.cls_C<<<GridLookUpTable_Table>>>.<<<Display_Member>>>, 
+                    BLL.<<<Module_Name>>>_BLL.<<<GridLookUpTable_Table>>>.cls_C<<<GridLookUpTable_Table>>>.pri<<<Value_Member>>>, 
+                    BLL.<<<Module_Name>>>_BLL.<<<GridLookUpTable_Table>>>.cls_C<<<GridLookUpTable_Table>>>.<<<Display_Member>>>, 
+                    BLL.<<<Module_Name>>>_BLL.<<<GridLookUpTable_Table>>>.cls_C<<<GridLookUpTable_Table>>>.pri<<<Value_Member>>>, 
+                    "Names", 
+                    "IDs", 
+                    ds, 
+                    BLL.<<<Module_Name>>>_BLL.<<<GridLookUpTable_Table>>>.cls_C<<<GridLookUpTable_Table>>>.pri<<<Value_Member>>>, 
+                    GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_GridLookUpEditPopHeightMedium, 
+                    GEN.GEN_GEN.GenericClasses.cls_GENGlobalClass.GV_GridLookUpEditPopWidthlarge, 
+                    100, 
+                    "", 
+                    false, 
+                    true, 
+                    true 
+                    
+                    );
+                   
+                 return true;
+           
+
+      }

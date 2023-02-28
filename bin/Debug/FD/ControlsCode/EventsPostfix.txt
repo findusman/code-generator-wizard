@@ -1,0 +1,13 @@
+
+
+
+cls_VVVTableVVV_P objcls_VVVTableVVV_P = null;
+        public frm_VVVTableVVV()
+        {
+
+            InitializeComponent();
+            
+            objcls_VVVTableVVV_P = new cls_VVVTableVVV_P(this);
+            
+
+        }

@@ -1,0 +1,4 @@
+TextEdit
+.Text.Trim()
+Convert.ToString(
+

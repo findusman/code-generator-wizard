@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_JoinScriptGenerator" targetNamespace="http://tempuri.org/DataSet_JoinScriptGenerator.xsd" xmlns:mstns="http://tempuri.org/DataSet_JoinScriptGenerator.xsd" xmlns="http://tempuri.org/DataSet_JoinScriptGenerator.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_JoinScriptGenerator" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_JoinScriptGenerator" msprop:Generator_UserDSName="DataSet_JoinScriptGenerator">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_joinScriptGenerator" msprop:Generator_TableClassName="dt_joinScriptGeneratorDataTable" msprop:Generator_TableVarName="tabledt_joinScriptGenerator" msprop:Generator_TablePropName="dt_joinScriptGenerator" msprop:Generator_RowDeletingName="dt_joinScriptGeneratorRowDeleting" msprop:Generator_RowChangingName="dt_joinScriptGeneratorRowChanging" msprop:Generator_RowEvHandlerName="dt_joinScriptGeneratorRowChangeEventHandler" msprop:Generator_RowDeletedName="dt_joinScriptGeneratorRowDeleted" msprop:Generator_UserTableName="dt_joinScriptGenerator" msprop:Generator_RowChangedName="dt_joinScriptGeneratorRowChanged" msprop:Generator_RowEvArgName="dt_joinScriptGeneratorRowChangeEvent" msprop:Generator_RowClassName="dt_joinScriptGeneratorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParentTable" msprop:Generator_ColumnVarNameInTable="columnParentTable" msprop:Generator_ColumnPropNameInRow="ParentTable" msprop:Generator_ColumnPropNameInTable="ParentTableColumn" msprop:Generator_UserColumnName="ParentTable" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryKey" msprop:Generator_ColumnVarNameInTable="columnPrimaryKey" msprop:Generator_ColumnPropNameInRow="PrimaryKey" msprop:Generator_ColumnPropNameInTable="PrimaryKeyColumn" msprop:Generator_UserColumnName="PrimaryKey" type="xs:string" minOccurs="0" />
+              <xs:element name="ChildTable" msprop:Generator_ColumnVarNameInTable="columnChildTable" msprop:Generator_ColumnPropNameInRow="ChildTable" msprop:Generator_ColumnPropNameInTable="ChildTableColumn" msprop:Generator_UserColumnName="ChildTable" type="xs:string" minOccurs="0" />
+              <xs:element name="ForeignKey" msprop:Generator_ColumnVarNameInTable="columnForeignKey" msprop:Generator_ColumnPropNameInRow="ForeignKey" msprop:Generator_ColumnPropNameInTable="ForeignKeyColumn" msprop:Generator_UserColumnName="ForeignKey" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

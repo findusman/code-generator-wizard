@@ -1,0 +1,52 @@
+USE <<<Database_Name>>>
+GO
+
+--     *****************************************************************************************************************************************************************
+ 
+ 
+--                             Code Type:           Store Procedure For Deletion
+--                             Auther:              Muhammad Usman Raza Attari
+--                             Developed By :       786 Software House 
+ 
+ 
+--    *****************************************************************************************************************************************************************
+ 
+     <<<Procedure_Mode>>> procedure  sp_<<<Main_Table>>>_deletion
+                                               
+                                               
+     @STATUS nvarchar(100),
+     @CMP_ID nvarchar(100),
+     @BRC_ID nvarchar(100),
+     @<<<Primary_Key>>>  nvarchar(100)
+     
+     
+   
+   
+     AS BEGIN 
+   
+    
+          if @STATUS = 'D'
+                BEGIN
+               
+                 update <<<Main_Table>>> 
+                 set Is_Deleted = 1
+	                where  
+                             <<<Primary_Key>>> = @<<<Primary_Key>>>
+	                     and Isnull(CMP_ID,'')      = isnull(@CMP_ID , '')
+                             and Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+                               
+    
+                 update <<<Det_Table>>>
+                 set Is_Deleted = 1
+	                where  
+                             <<<Foreign_Key>>> = @<<<Primary_Key>>>
+	                     and Isnull(CMP_ID,'')      = isnull(@CMP_ID , '')
+                             and Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+
+                             select 'ok' , @<<<Primary_Key>>>
+                                   
+
+                END 
+                
+ 
+     END

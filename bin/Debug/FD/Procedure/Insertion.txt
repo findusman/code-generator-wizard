@@ -1,0 +1,100 @@
+USE <<<Database_Name>>>
+GO
+
+
+
+
+
+--     *****************************************************************************************************************************************************************
+ 
+ 
+--                             Code Type:           Store Procedure For Insertion
+--                             Auther:              Muhammad Usman Raza Attari
+--                             Developed By :       786 Software House 
+ 
+ 
+--    *****************************************************************************************************************************************************************
+ 
+      <<<Procedure_Mode>>> procedure  [dbo].[sp_<<<Main_Table>>>_insertion]
+                                               
+                                               
+           @CMP_ID  nvarchar(50) 
+          ,@BRC_ID  nvarchar(50) 
+          ,@<<<Primary_Key>>>  nvarchar(50) <<<OthersWithType>>>
+          ,@<<<Is_Auto_Generated>>>  bit
+          ,@Is_Deleted bit
+          ,@User_ID  nvarchar(50)
+          
+   
+      as  
+      begin
+   
+      declare @tmp<<<Primary_Key>>> nvarchar(50)
+      declare @tmpMaxID nvarchar(50)
+      declare @count int 
+      
+      set @tmpMaxID = cast(( select  isnull( (max(cast( <<<Max_ID_Column>>> as int ))),0) + 1 from  <<<Main_Table>>>
+                                             
+                                              --where   
+                                              --Isnull(CMP_ID,'')  = isnull(@CMP_ID , '')
+                                              --and  Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+                                              --and  Is_Deleted         = isnull(@Is_Deleted , Is_Deleted )
+                                          ) as nvarchar
+                                         )
+   
+      if @<<<Is_Auto_Generated>>> = 1
+        begin
+             
+             set @tmp<<<Primary_Key>>> = @tmpMaxID
+         
+        end   
+           else if @<<<Is_Auto_Generated>>> = 0
+			   begin
+    			  
+			         set @tmp<<<Primary_Key>>> = @<<<Primary_Key>>>
+    			
+			   end 
+          
+      set @count = ( select count(<<<Primary_Key>>>) from <<<Main_Table>>>
+                            where   
+                                  <<<Primary_Key>>>= @tmp<<<Primary_Key>>>
+                                  and  Isnull(CMP_ID,'')  = isnull(@CMP_ID , '')
+                                  and  Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+                                  and  Is_Deleted         = isnull(@Is_Deleted , Is_Deleted )
+                    )  
+     
+    
+      if @count = 0
+   
+         begin
+   
+              insert into <<<Main_Table>>>
+                     values
+                     (
+                        @CMP_ID  ,
+                        @BRC_ID  ,
+                        @tmp<<<Primary_Key>>>  ,
+                        @tmpMaxID   ,<<<OthersWithoutType>>>  
+                        @<<<Is_Auto_Generated>>>,
+                        @Is_Deleted ,
+                        @User_ID  
+                     )
+              select 'ok' , @tmp<<<Primary_Key>>>
+     
+       end
+         else
+             begin
+     
+                  select (select dbo.Errors.value from dbo.Errors where [key] = 'AE') , 'N'
+     
+             end
+     
+    end
+
+
+
+
+
+
+
+

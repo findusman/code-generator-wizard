@@ -1,0 +1,58 @@
+USE <<<Database_Name>>>
+GO
+
+
+
+--     *****************************************************************************************************************************************************************
+ 
+ 
+--                             Code Type:           Store Procedure For updation
+--                             Auther:              Muhammad Usman Raza Attari
+--                             Developed By :       786 Software House 
+ 
+ 
+--    *****************************************************************************************************************************************************************
+ 
+      <<<Procedure_Mode>>> procedure  [dbo].[sp_<<<Main_Table>>>_updation]
+                                               
+                                               
+           @CMP_ID  nvarchar(50) 
+          ,@BRC_ID  nvarchar(50) 
+          ,@<<<Primary_Key>>>  nvarchar(50) <<<OthersWithType>>>
+          ,@<<<Is_Auto_Generated>>>  bit
+          ,@Is_Deleted bit
+          ,@User_ID  nvarchar(50)
+          
+          
+   
+      as  
+      begin
+   
+   
+      update <<<Main_Table>>>
+      set                     
+
+      <<<OthersWithoutType>>>                         
+                
+      where
+      <<<Primary_Key>>>=  @<<<Primary_Key>>>
+      
+			     Isnull(CMP_ID,'')  = isnull(@CMP_ID , '')
+                             and Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+                             
+			     and  Is_Deleted         = isnull(@Is_Deleted , Is_Deleted ) 
+                        
+      select 'ok' , @<<<Primary_Key>>>
+     
+       
+      
+     
+    end
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+
+
+//                                             VVVVNameVVVVV
+
+            this.VVVVNameVVVVV = new DevExpress.XtraEditors.LookUpEdit();
+            this.VVVVNameVVVVV.EnterMoveNextControl = true;
+            this.VVVVNameVVVVV.Location = new System.Drawing.Point(84, VVVVWidthVVVVV);
+            this.VVVVNameVVVVV.Name = "VVVVNameVVVVV";
+            this.VVVVNameVVVVV.Properties.AppearanceFocused.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.VVVVNameVVVVV.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.VVVVNameVVVVV.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
+            this.VVVVNameVVVVV.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.VVVVNameVVVVV.Size = new System.Drawing.Size(130, 20);
+            this.VVVVNameVVVVV.Tag = "VVVTagVVV";
+            this.Controls.Add(this.VVVVNameVVVVV);
+            
+
+
+
+
+//                                             VVVVName1VVVVV
+
+            this.VVVVName1VVVVV = new DevExpress.XtraEditors.LabelControl();
+            this.VVVVName1VVVVV.Location = new System.Drawing.Point(30, VVVVWidthVVVVV);
+            this.VVVVName1VVVVV.Name = "VVVVName1VVVVV";
+            this.VVVVName1VVVVV.Size = new System.Drawing.Size(130, 20);
+            this.VVVVName1VVVVV.TabIndex = 2;
+            this.VVVVName1VVVVV.Text = "VVVVCaptionVVVVV";
+            this.Controls.Add(this.VVVVName1VVVVV);
+            
+
+
+
+

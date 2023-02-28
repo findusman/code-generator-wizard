@@ -1,0 +1,11 @@
+
+
+
+
+
+            this.Name = "VVVNameVVV";
+            this.Text = "VVVTextVVV";
+            this.Tag = "VVVTagVVV";
+            this.ResumeLayout(false);
+
+        }

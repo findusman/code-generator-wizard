@@ -1,0 +1,16 @@
+ if (insertionDEF(Id, objSqlCommand, objDAlCustome, 'I'))
+                 {
+
+                     objDAlCustome.transactioCommit();
+                     objDAlCustome.closeconnection();
+
+                 }
+                 else
+                 {
+                     objDAlCustome.transactioRollBack();
+                     objDAlCustome.closeconnection();
+
+                     return ds;
+
+                 }
+}

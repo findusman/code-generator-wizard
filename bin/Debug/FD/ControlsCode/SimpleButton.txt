@@ -1,0 +1,19 @@
+
+
+//                                             SimpleButton_<<<Control_Name>>>
+
+            this.SimpleButton_<<<Control_Name>>>.Location = new System.Drawing.Point(500, <<<Control_XLocation>>>);
+            this.SimpleButton_<<<Control_Name>>>.Name = "SimpleButton_<<<Control_Name>>>";
+            this.SimpleButton_<<<Control_Name>>>.Text = "<<<Control_Caption>>>";
+            this.SimpleButton_<<<Control_Name>>>.Size = new System.Drawing.Size(71, 31);
+            this.SimpleButton_<<<Control_Name>>>.TabIndex = 2;
+            this.SimpleButton_<<<Control_Name>>>.Tag = "<<<Control_Tag>>>";
+            this.SimpleButton_<<<Control_Name>>>.Click += new System.EventHandler(this.SimpleButton_<<<Control_Name>>>_Click);
+            this.Controls.Add(this.SimpleButton_<<<Control_Name>>>);
+            
+
+
+
+
+
+

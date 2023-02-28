@@ -1,0 +1,264 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Linq;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+
+namespace PRESENTATION_LAYER.<<<Database_Name>>>_PRESENTATION_LAYER.Forms.<<<Main_Table>>>
+{
+    public partial  class frm_<<<Main_Table>>> : DevExpress.XtraEditors.XtraForm
+    {
+
+        GEN.GEN_GEN.GenericClasses.cls_MessageBox obj_cls_MessageBox = new GEN.GEN_GEN.GenericClasses.cls_MessageBox();
+
+
+        GEN.GEN_GEN.GenericClasses.Form.Gen_Form obj_GenForm;
+        GEN.GEN_GEN.GenericClasses.Grid.Gen_GridView ObjGenGrid;
+                
+        public char DBStatus = 'I';
+        cls_<<<Main_Table>>>_P objcls_<<<Main_Table>>>_P = null;
+        public string maxID = "";
+        
+
+public frm_<<<Main_Table>>>()
+{
+InitializeComponent();
+}
+        public frm_<<<Main_Table>>>(String pID , bool pIs_DesturbanceOnce)
+        {
+            
+            try
+            {   
+          
+            InitializeComponent();
+            obj_GenForm = new GEN.GEN_GEN.GenericClasses.Form.Gen_Form(this);   
+            ObjGenGrid = new GEN.GEN_GEN.GenericClasses.Grid.Gen_GridView(this.GridView_<<<Det_Table>>> , this.GridControl_<<<Det_Table>>> );
+        
+            objcls_<<<Main_Table>>>_P = new cls_<<<Main_Table>>>_P(this,pID,obj_GenForm, ObjGenGrid, pIs_DesturbanceOnce);		
+	    obj_GenForm.Formatting();
+            obj_GenForm.Appreance();
+            ObjGenGrid.Apperance("I");
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+            
+        }
+
+
+        public void SimpleButton_List_Click(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            objcls_<<<Main_Table>>>_P.selection("A", ""); 
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }     
+        }
+
+        public void SimpleButton_Referesh_Click(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            objcls_<<<Main_Table>>>_P.Referesh("False"); 
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+        public void SimpleButton_Referesh_A_Click(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            objcls_<<<Main_Table>>>_P.Referesh("True"); 
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+        public void SimpleButton_Delete_Click(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            objcls_<<<Main_Table>>>_P.Delete();
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+        public void SimpleButton_Save_Click(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            objcls_<<<Main_Table>>>_P.Save();
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+        public void SimpleButton_Exit_Click(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+             if (this.DBStatus == 'U')
+            {
+
+                obj_cls_MessageBox.MessageBoxStatic("C_E");
+                return;
+            }
+            this.Close();
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+
+        }
+
+       
+       
+        private void frm_<<<Main_Table>>>_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            try
+            {   
+        
+            obj_GenForm.ShortKey(e);
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+
+        private void TextEdit_<<<Primary_Key>>>_Leave(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            if (DBStatus == 'U')
+                TextEdit_<<<Primary_Key>>>.Text = maxID;
+            else
+            {
+                if (CheckEdit_Is_AutoGenegereted.Checked)
+                    TextEdit_<<<Primary_Key>>>.Text = maxID;
+            }
+
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+        private void TextEdit_<<<Primary_Key>>>_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            try
+            {   
+        
+            if (e.KeyData == Keys.Enter)
+            {
+               
+                 if (TextEdit_<<<Primary_Key>>>.Text != "")
+                        objcls_<<<Main_Table>>>_P.selection("V", TextEdit_<<<Primary_Key>>>.Text.Trim());
+            }   
+                
+                        }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+        private void DataNavigator_Navigate_PositionChanged(object sender, EventArgs e)
+        {
+            
+         try
+
+           {
+             loadDataFromDataNavigator();
+                       }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+       }
+
+        void loadDataFromDataNavigator()
+        {
+
+            try
+            {   
+        
+            int x = DataNavigator_Navigate.Position;
+            if(x >=0)
+               objcls_<<<Main_Table>>>_P.selection("N", x.ToString());
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+        }
+
+
+        private void CheckEdit_navigate_CheckedChanged(object sender, EventArgs e)
+        {
+
+            try
+            {   
+        
+            DataNavigator_Navigate.Enabled = CheckEdit_navigate.Checked;
+                if(CheckEdit_navigate.Checked)
+                    loadDataFromDataNavigator();
+                else
+                    objcls_<<<Main_Table>>>_P.Referesh("False"); 
+            }
+            catch (Exception ex)
+            {
+                obj_cls_MessageBox.MessageBoxStatic("BLL_E");
+            }
+                    
+        }
+              <<<Control_Events>>>
+
+      }
+
+           
+
+}

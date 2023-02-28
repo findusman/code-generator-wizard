@@ -1,0 +1,7 @@
+update <<<Det_Table>>>
+      set Is_Deleted = 0
+      where  
+           <<<Foreign_Key>>> = @<<<Primary_Key>>>
+	   and Isnull(CMP_ID,'')      = isnull(@CMP_ID , '') 
+           and Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+             

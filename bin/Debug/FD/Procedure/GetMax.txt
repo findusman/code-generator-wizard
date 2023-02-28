@@ -1,0 +1,16 @@
+		if @STATUS =  '<<<Main_Table>>>'
+		begin
+
+                         select cast(
+                                      ( select  isnull( (max(cast( <<<Max_ID_Column>>> as int ))),0) + 1 from  <<<Main_Table>>>
+                                             
+                                              --where   
+                                              --Isnull(CMP_ID,'')  = isnull(@CMP_ID , '')
+                                              --and  Isnull(BRC_ID,'')  = isnull(@BRC_ID , '')
+                                              --and  Is_Deleted         = isnull(@isDeleted , Is_Deleted )
+                                       ) as nvarchar
+                                     )
+   		
+		
+		end
+		

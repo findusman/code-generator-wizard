@@ -1,0 +1,40 @@
+
+
+//                                             ComboBoxEdit_<<<Control_Name>>>
+
+            this.ComboBoxEdit_<<<Control_Name>>>.EditValue = "Item 1";
+            this.ComboBoxEdit_<<<Control_Name>>>.EnterMoveNextControl = true;
+            this.ComboBoxEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(84, <<<Control_XLocation>>>);
+            this.ComboBoxEdit_<<<Control_Name>>>.Name = "ComboBoxEdit_<<<Control_Name>>>";
+            this.ComboBoxEdit_<<<Control_Name>>>.Properties.AppearanceFocused.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ComboBoxEdit_<<<Control_Name>>>.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.ComboBoxEdit_<<<Control_Name>>>.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
+            this.ComboBoxEdit_<<<Control_Name>>>.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.ComboBoxEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 22);
+            this.ComboBoxEdit_<<<Control_Name>>>.Properties.Items.AddRange(new object[] {
+            "Item 1",
+            "Item 2",
+            ".",
+            ".",
+            "."});
+            this.ComboBoxEdit_<<<Control_Name>>>.Tag = "<<<Control_Tag>>>";
+            this.Controls.Add(this.ComboBoxEdit_<<<Control_Name>>>);
+            
+
+
+
+
+//                                             LabelControl_ComboBoxEdit_<<<Control_Name>>>
+
+             this.LabelControl_ComboBoxEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(30, <<<Control_XLocation>>>);
+            this.LabelControl_ComboBoxEdit_<<<Control_Name>>>.Name = "LabelControl_ComboBoxEdit_<<<Control_Name>>>";
+            this.LabelControl_ComboBoxEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.LabelControl_ComboBoxEdit_<<<Control_Name>>>.TabIndex = 2;
+            this.LabelControl_ComboBoxEdit_<<<Control_Name>>>.Text = "<<<Control_Caption>>>";
+            this.Controls.Add(this.LabelControl_ComboBoxEdit_<<<Control_Name>>>);
+            
+
+
+
+

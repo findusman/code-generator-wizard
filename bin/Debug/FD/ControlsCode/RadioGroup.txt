@@ -1,0 +1,35 @@
+
+
+//                                             RadioGroup_<<<Control_Name>>>
+
+            
+            this.RadioGroup_<<<Control_Name>>>.EnterMoveNextControl = true;
+            this.RadioGroup_<<<Control_Name>>>.Location = new System.Drawing.Point(84, <<<Control_XLocation>>>);
+            this.RadioGroup_<<<Control_Name>>>.Name = "RadioGroup_<<<Control_Name>>>";
+            this.RadioGroup_<<<Control_Name>>>.Properties.AppearanceFocused.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RadioGroup_<<<Control_Name>>>.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.RadioGroup_<<<Control_Name>>>.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;            
+            this.RadioGroup_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 22);
+            this.RadioGroup_<<<Control_Name>>>.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Item 1"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Item 2")});
+            this.RadioGroup_<<<Control_Name>>>.Tag = "<<<Control_Tag>>>";
+            this.Controls.Add(this.RadioGroup_<<<Control_Name>>>);
+            
+
+
+
+
+//                                             LabelControl_RadioGroup_<<<Control_Name>>>
+
+             this.LabelControl_RadioGroup_<<<Control_Name>>>.Location = new System.Drawing.Point(30, <<<Control_XLocation>>>);
+            this.LabelControl_RadioGroup_<<<Control_Name>>>.Name = "LabelControl_RadioGroup_<<<Control_Name>>>";
+            this.LabelControl_RadioGroup_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.LabelControl_RadioGroup_<<<Control_Name>>>.TabIndex = 2;
+            this.LabelControl_RadioGroup_<<<Control_Name>>>.Text = "<<<Control_Caption>>>";
+            this.Controls.Add(this.LabelControl_RadioGroup_<<<Control_Name>>>);
+            
+
+
+
+

@@ -1,0 +1,42 @@
+ 
+<<<Module_Name>>>_PRESENTATION_LAYER.cls_ShowFormEntities.<<<Main_Table>>>("N", true, true, false);
+
+public static string <<<Main_Table>>>(string pID, bool isParent, bool isUnique, bool isDisturbed)
+        {
+
+            bool isFormOpen = PRESENTATION_LAYER.GEN_PRESENTATION_LAYER.cls_StaticObjects.obj_MDIClassic.IsAlreadyOpen(typeof(<<<Module_Name>>>_PRESENTATION_LAYER.Forms.<<<Main_Table>>>.frm_<<<Main_Table>>>));
+
+            <<<Module_Name>>>_PRESENTATION_LAYER.Forms.<<<Main_Table>>>.frm_<<<Main_Table>>> obj_<<<Main_Table>>> = new <<<Module_Name>>>_PRESENTATION_LAYER.Forms.<<<Main_Table>>>.frm_<<<Main_Table>>>(pID, isDisturbed);
+            bool isOk = GEN.GEN_GEN.GenericClasses.UserRIghts.cls_UserRights.isThisScreenAllowed(obj_<<<Main_Table>>>.Name, "G");
+            if (isOk)
+            {
+                if (isParent)
+                {
+                    obj_<<<Main_Table>>>.MdiParent = PRESENTATION_LAYER.GEN_PRESENTATION_LAYER.cls_StaticObjects.obj_MDIClassic;
+                    if (isUnique)
+                    {
+
+                        if (!isFormOpen)
+                            obj_<<<Main_Table>>>.Show();
+
+                    }
+                    else
+                    {
+
+                        obj_<<<Main_Table>>>.Show();
+                    }
+                }
+                else
+                {
+                    obj_<<<Main_Table>>>.ShowDialog();
+                }
+                return "ok";
+
+            }
+            else
+            {
+                GEN.GEN_GEN.GenericClasses.cls_MessageBox objcls_MessageBox = new GEN.GEN_GEN.GenericClasses.cls_MessageBox();
+
+                return objcls_MessageBox.error_notAllowedToOpenScreen;
+            }
+        }

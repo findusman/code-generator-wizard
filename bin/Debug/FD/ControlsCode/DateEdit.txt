@@ -1,0 +1,38 @@
+
+
+//                                             DateEdit_<<<Control_Name>>>
+
+            this.DateEdit_<<<Control_Name>>>.EditValue = null;
+            this.DateEdit_<<<Control_Name>>>.EnterMoveNextControl = true;
+            this.DateEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(84, <<<Control_XLocation>>>);
+            this.DateEdit_<<<Control_Name>>>.Name = "DateEdit_<<<Control_Name>>>";
+            this.DateEdit_<<<Control_Name>>>.Properties.AppearanceFocused.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.DateEdit_<<<Control_Name>>>.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.DateEdit_<<<Control_Name>>>.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
+            this.DateEdit_<<<Control_Name>>>.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.DateEdit_<<<Control_Name>>>.Properties.Mask.EditMask = "";
+            this.DateEdit_<<<Control_Name>>>.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
+            this.DateEdit_<<<Control_Name>>>.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});            
+            this.DateEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.DateEdit_<<<Control_Name>>>.Tag = "<<<Control_Tag>>>";
+            this.Controls.Add(this.DateEdit_<<<Control_Name>>>);
+            
+
+
+
+
+//                                             LabelControl_DateEdit_<<<Control_Name>>>
+
+            this.LabelControl_DateEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(30, <<<Control_XLocation>>>);
+            this.LabelControl_DateEdit_<<<Control_Name>>>.Name = "LabelControl_DateEdit_<<<Control_Name>>>";
+            this.LabelControl_DateEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.LabelControl_DateEdit_<<<Control_Name>>>.TabIndex = 2;
+            this.LabelControl_DateEdit_<<<Control_Name>>>.Text = "<<<Control_Caption>>>";
+            this.Controls.Add(this.LabelControl_DateEdit_<<<Control_Name>>>);
+            
+
+
+
+

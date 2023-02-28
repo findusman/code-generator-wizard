@@ -1,0 +1,18 @@
+  //******************************************  <<<Main_Table>>>  *****************************************
+
+
+        public DataSet g_<<<Main_Table>>> = new DataSet();
+        public DataSet f_<<<Main_Table>>>(string pSTATUS, string p<<<Primary_Key>>>)
+        {
+
+            BLL.<<<Database_Name>>>_BLL.<<<Main_Table>>>.cls_<<<Main_Table>>> obj_cls_<<<Main_Table>>> = new BLL.<<<Database_Name>>>_BLL.<<<Main_Table>>>.cls_<<<Main_Table>>>();
+
+             
+            obj_cls_<<<Main_Table>>>.STATUS = pSTATUS;
+            obj_cls_<<<Main_Table>>>.<<<Primary_Key>>>= p<<<Primary_Key>>>;
+           
+
+            g_<<<Main_Table>>> = obj_cls_<<<Main_Table>>>.selection();
+            return g_<<<Main_Table>>>;
+
+        }

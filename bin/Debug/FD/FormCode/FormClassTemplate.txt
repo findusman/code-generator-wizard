@@ -1,0 +1,125 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Linq;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+
+namespace PRESENTATION_LAYER.<<<Database_Name>>>_PRESENTATION_LAYER.Forms.<<<Main_Table>>>
+{
+    public partial  class frm_<<<Main_Table>>> : DevExpress.XtraEditors.XtraForm
+    {
+
+
+        GEN.GEN_GEN.GenericClasses.Form.Gen_Form obj_GenForm;
+
+        public char DBStatus = 'I';
+        cls_<<<Main_Table>>>_P objcls_<<<Main_Table>>>_P = null;
+        public string maxID = "";
+        
+
+        public frm_<<<Main_Table>>>(String pID , bool pIs_DesturbanceOnce)
+        {
+            
+            InitializeComponent();
+            obj_GenForm = new GEN.GEN_GEN.GenericClasses.Form.Gen_Form(this);   
+            objcls_<<<Main_Table>>>_P = new cls_<<<Main_Table>>>_P(this,pID,obj_GenForm, pIs_DesturbanceOnce);		
+	    obj_GenForm.Formatting();
+            obj_GenForm.Appreance();
+            
+        }
+
+
+        public void SimpleButton_List_Click(object sender, EventArgs e)
+        {
+            objcls_<<<Main_Table>>>_P.selection("A", "");      
+        }
+
+        public void SimpleButton_Referesh_Click(object sender, EventArgs e)
+        {
+            objcls_<<<Main_Table>>>_P.Referesh("False"); 
+        }
+
+        public void SimpleButton_Referesh_A_Click(object sender, EventArgs e)
+        {
+            objcls_<<<Main_Table>>>_P.Referesh("True"); 
+        }
+
+        public void SimpleButton_Delete_Click(object sender, EventArgs e)
+        {
+            objcls_<<<Main_Table>>>_P.Delete();
+        }
+
+        public void SimpleButton_Save_Click(object sender, EventArgs e)
+        {
+            objcls_<<<Main_Table>>>_P.Save();
+        }
+
+        public void SimpleButton_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        	
+       
+        private void frm_<<<Main_Table>>>_KeyDown(object sender, KeyEventArgs e)
+        {
+            obj_GenForm.ShortKey(e);
+        }
+
+
+        private void TextEdit_<<<Primary_Key>>>_Leave(object sender, EventArgs e)
+        {
+            if (DBStatus == 'U')
+                TextEdit_<<<Primary_Key>>>.Text = maxID;
+            else
+            {
+                if (CheckEdit_Is_AutoGenegereted.Checked)
+                    TextEdit_<<<Primary_Key>>>.Text = maxID;
+            }
+        }
+
+        private void TextEdit_<<<Primary_Key>>>_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+               
+                 if (TextEdit_<<<Primary_Key>>>.Text != "")
+                        objcls_<<<Main_Table>>>_P.selection("V", TextEdit_<<<Primary_Key>>>.Text.Trim());
+            }   
+                
+            
+        }
+
+        private void DataNavigator_Navigate_PositionChanged(object sender, EventArgs e)
+        {
+            loadDataFromDataNavigator();
+        }
+
+        void loadDataFromDataNavigator()
+        {
+            int x = DataNavigator_Navigate.Position;
+            if(x >=0)
+               objcls_<<<Main_Table>>>_P.selection("N", x.ToString());
+        }
+
+
+        private void CheckEdit_navigate_CheckedChanged(object sender, EventArgs e)
+        {
+            DataNavigator_Navigate.Enabled = CheckEdit_navigate.Checked;
+                if(CheckEdit_navigate.Checked)
+                    loadDataFromDataNavigator();
+                else
+                    objcls_<<<Main_Table>>>_P.Referesh("False"); 
+                    
+        }
+
+
+      }
+
+
+           <<<Control_Events>>>
+}

@@ -1,0 +1,22 @@
+ public string valueSetting( System.Data.DataSet ds)
+        {
+
+            try
+            {
+                   //Referesh(false);
+                   DataTable dt_Main = ds.Tables[0];
+                  
+                   VVVTemplateVVV
+
+                  //VVVValueSetVVV
+            }
+            catch (Exception ex)
+            {
+
+                return ex.Message;
+
+            }
+
+            return "ok";
+        
+        }

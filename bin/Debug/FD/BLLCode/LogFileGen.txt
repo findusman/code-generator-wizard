@@ -1,0 +1,75 @@
+
+        #region  LoG
+
+
+
+        private  string lOG_userID   = string.Empty;
+ 
+        public  string  LOG_userID  
+        {
+              get { return lOG_userID; }
+              set {lOG_userID = value ; }
+        }
+
+        private string lOG_Type = string.Empty;
+
+        public string LOG_Type
+        {
+            get { return lOG_Type; }
+            set { lOG_Type = value; }
+        }
+
+
+        private string lOG_description = string.Empty;
+
+        public string LOG_description
+        {
+            get { return lOG_description; }
+            set { lOG_description = value; }
+        }
+
+
+
+        private string lOG_screenName = string.Empty;
+
+        public string LOG_screenName
+        {
+            get { return lOG_screenName; }
+            set { lOG_screenName = value; }
+        }
+
+
+        public String Log()
+        {
+            SqlParameter[] sql_param = new SqlParameter[8];
+
+            sql_param[0] = new SqlParameter("@CMP_ID", SqlDbType.NVarChar);
+            sql_param[0].Value = GEN.cls_GENGlobalClass.GV_CMP_ID;
+
+            sql_param[1] = new SqlParameter("@BRC_ID", SqlDbType.NVarChar);
+            sql_param[1].Value = GEN.cls_GENGlobalClass.GV_BRC_ID;
+
+            sql_param[2] = new SqlParameter("@LOG_userID", SqlDbType.NVarChar);
+            sql_param[2].Value =  GEN.cls_GENGlobalClass.GV_USER_ID;
+
+            sql_param[3] = new SqlParameter("@LOG_type", SqlDbType.NVarChar);
+            sql_param[3].Value = LOG_Type;
+
+            sql_param[4] = new SqlParameter("@LOG_datetime", SqlDbType.DateTime);
+            sql_param[4].Value = Convert.ToDateTime(DateTime.Now.ToLongDateString());
+
+            sql_param[5] = new SqlParameter("@LOG_screenName", SqlDbType.NVarChar);
+            sql_param[5].Value = LOG_screenName;
+
+            sql_param[6] = new SqlParameter("@LOG_description", SqlDbType.NVarChar);
+            sql_param[6].Value = LOG_description;
+
+            sql_param[7] = new SqlParameter("@LOG_isDeleted", SqlDbType.Bit);
+            sql_param[7].Value = GEN.cls_GENGlobalClass.GV_isDeleted;
+
+            ExeState = obj_dal.ins_del_upd("sp_TBL_LOG_insertion", sql_param);
+
+            return ExeState;
+        }
+
+        #endregion

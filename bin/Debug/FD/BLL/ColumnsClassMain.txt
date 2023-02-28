@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Data.SqlClient;
+using System.Data;
+
+
+namespace BLL.<<<Database_Name>>>_BLL.<<<Main_Table>>>
+{
+
+  public class cls_C<<<Main_Table>>>
+    {
+       
+     public static string pri<<<Primary_Key>>> = "<<<Primary_Key>>>";
+     public static string max<<<Max_ID_Column>>> = "<<<Max_ID_Column>>>";
+     <<<Column_Names>>>
+
+
+    }
+}

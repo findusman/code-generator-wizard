@@ -1,0 +1,32 @@
+
+
+//                                             MemoEdit_<<<Control_Name>>>
+
+            this.MemoEdit_<<<Control_Name>>>.EnterMoveNextControl = true;
+         
+            this.MemoEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(84, <<<Control_XLocation>>>);
+            this.MemoEdit_<<<Control_Name>>>.Name = "MemoEdit_<<<Control_Name>>>";
+            this.MemoEdit_<<<Control_Name>>>.Properties.AppearanceFocused.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.MemoEdit_<<<Control_Name>>>.Properties.AppearanceFocused.Options.UseBorderColor = true;
+            this.MemoEdit_<<<Control_Name>>>.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
+            this.MemoEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.MemoEdit_<<<Control_Name>>>.Tag = "<<<Control_Tag>>>";
+            this.Controls.Add(this.MemoEdit_<<<Control_Name>>>);
+            
+
+
+
+
+//                                             LabelControl_MemoEdit_<<<Control_Name>>>
+
+            this.LabelControl_MemoEdit_<<<Control_Name>>>.Location = new System.Drawing.Point(30, <<<Control_XLocation>>>);
+            this.LabelControl_MemoEdit_<<<Control_Name>>>.Name = "LabelControl_MemoEdit_<<<Control_Name>>>";
+            this.LabelControl_MemoEdit_<<<Control_Name>>>.Size = new System.Drawing.Size(130, 20);
+            this.LabelControl_MemoEdit_<<<Control_Name>>>.TabIndex = 2;
+            this.LabelControl_MemoEdit_<<<Control_Name>>>.Text = "<<<Control_Caption>>>";
+            this.Controls.Add(this.LabelControl_MemoEdit_<<<Control_Name>>>);
+            
+
+
+
+
